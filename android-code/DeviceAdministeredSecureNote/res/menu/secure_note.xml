@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/change_password_button" android:id="@+id/change_password_button" android:icon="@drawable/ic_menu_login"></item>
+    <item android:icon="@android:drawable/ic_menu_delete" android:id="@+id/delete_button" android:title="@string/delete_button"></item>
+</menu>

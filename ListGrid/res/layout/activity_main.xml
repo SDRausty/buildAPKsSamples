@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.dawson.listgrid.MainActivity" >
+
+    <me.dawson.listgrid.view.ListGrid
+        android:id="@+id/lg_demo"
+        android:layout_width="200dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:background="@color/grey" />
+
+</RelativeLayout>

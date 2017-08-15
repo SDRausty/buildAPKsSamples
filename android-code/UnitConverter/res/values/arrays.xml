@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="unit_category">
+		<item>@string/mass</item>
+		<item>@string/length</item>
+		<item>@string/temperature</item>
+	</string-array>
+
+	<string-array name="mass_category">
+        <item>@string/g</item>
+        <item>@string/kg</item>
+        <item>@string/oz</item>
+        <item>@string/lb</item>
+    </string-array>
+
+    <string-array name="length_category">
+        <item>@string/mm</item>
+        <item>@string/m</item>
+        <item>@string/km</item>
+        <item>@string/in</item>
+        <item>@string/ft</item>
+        <item>@string/yd</item>
+        <item>@string/mi</item>
+    </string-array>
+    
+    <string-array name="temperature_category">
+        <item>@string/C</item>
+        <item>@string/F</item>
+        <item>@string/K</item>
+    </string-array>
+</resources>

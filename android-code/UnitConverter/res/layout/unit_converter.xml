@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/unit_converter_description"
+		android:gravity="center_horizontal" android:paddingTop="5dp"
+		android:paddingBottom="5dp" />
+	<Spinner android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:entries="@array/unit_category"
+		android:id="@+id/category" />
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Spinner android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/input_unit"
+			android:layout_weight="1" />
+		<ImageView android:src="@android:drawable/ic_media_ff"
+			android:layout_height="wrap_content" android:id="@+id/reverse_units"
+			android:layout_gravity="center" android:layout_width="wrap_content" />
+		<Spinner android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/output_unit"
+			android:layout_weight="1" />
+	</LinearLayout>
+	<TableLayout android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:stretchColumns="1">
+		<TableRow>
+			<Button android:layout_height="wrap_content" android:id="@+id/clear_input"
+				android:text="@string/clear_input" android:layout_width="wrap_content" android:gravity="center"/>
+			<EditText android:layout_height="wrap_content" android:id="@+id/input_amount"
+				android:hint="@string/input_amount_hint" android:layout_width="fill_parent"
+				android:inputType="numberDecimal" android:gravity="right" />
+		</TableRow>
+		<TableRow>
+			<Button android:layout_height="wrap_content" android:id="@+id/copy_result"
+				android:text="@string/copy_result" android:layout_width="wrap_content" android:gravity="center"/>
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:gravity="right|center_vertical"
+				android:id="@+id/output_amount" android:textSize="20sp"
+				android:paddingTop="5dp" android:paddingBottom="5dp"
+				android:paddingRight="5dp" />
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

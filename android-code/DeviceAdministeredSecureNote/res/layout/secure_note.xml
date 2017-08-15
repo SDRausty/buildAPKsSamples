@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/secure_note_title"
+		android:gravity="center" android:textSize="25sp" />
+	<EditText android:layout_width="match_parent"
+		android:layout_height="match_parent" android:layout_weight="1"
+		android:id="@+id/note_text" android:hint="@string/note_text_hint" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/secure_note_warning"
+		android:gravity="center" android:textSize="10sp" />
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:orientation="horizontal">
+		<Button android:layout_height="wrap_content" android:id="@+id/load_button"
+			android:layout_weight="1" android:layout_width="match_parent"
+			android:text="@string/load_button" />
+		<Button android:layout_height="wrap_content" android:id="@+id/save_button"
+			android:layout_weight="1" android:layout_width="match_parent"
+			android:text="@string/save_button" />
+		<Button android:layout_height="wrap_content" android:id="@+id/close_button"
+			android:layout_weight="1" android:layout_width="match_parent"
+			android:text="@string/close_button" />
+	</LinearLayout>
+</LinearLayout>

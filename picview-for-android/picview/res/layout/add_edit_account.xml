@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:stretchColumns="2" >
+
+        <TableRow>
+
+            <TextView
+                style="@style/account_dialog_label"
+                android:layout_column="1"
+                android:text="@string/account_type" />
+
+            <Spinner
+                android:id="@+id/account_type"
+                android:prompt="@string/choose_account_type" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/account_dialog_label"
+                android:layout_column="1"
+                android:text="@string/account_id" />
+
+            <EditText
+                android:id="@+id/account_id"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/account_dialog_label"
+                android:layout_column="1"
+                android:text="@string/account_name"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/account_name"
+                android:layout_width="match_parent"
+                android:inputType="text" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/ok" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

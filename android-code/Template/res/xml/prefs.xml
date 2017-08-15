@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <CheckBoxPreference android:title="@string/allow_background_data"
+    android:key="background_data"></CheckBoxPreference>
+  <EditTextPreference android:summary="@string/username_summary"
+    android:title="@string/username" android:key="username"></EditTextPreference>
+  <EditTextPreference android:summary="@string/password_summary"
+    android:title="@string/password" android:key="password"
+    android:password="true"></EditTextPreference>
+</PreferenceScreen>

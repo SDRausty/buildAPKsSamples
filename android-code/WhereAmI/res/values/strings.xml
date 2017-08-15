@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="title">Where Am I?</string>
+  <string name="hello">Hello World, WhereAmI!</string>
+  <string name="app_name">Where Am I?</string>
+</resources>

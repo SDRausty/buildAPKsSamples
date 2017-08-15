@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="clear_input">Clear</string>
+	<string name="copy_result">Copy</string>
+	<string name="copy_result_message">Copied %s to clipboard</string>
+	<string name="input_amount_hint">The amount to convert</string>
+	<string name="unit_converter_description">Enjoy world\'s 100th best unit converter.</string>
+	<string name="app_name">Unit Converter</string>
+	<string name="mass">Mass</string>
+	<string name="length">Length</string>
+	<string name="temperature">Temperature</string>
+
+	<string name="g">Grams [g]</string>
+	<string name="kg">Kilograms [kg]</string>
+	<string name="oz">Ounces [oz]</string>
+	<string name="lb">Pounds [lb]</string>
+
+	<string name="mm">Millimeters [mm]</string>
+	<string name="m">Meters [m]</string>
+	<string name="km">Kilometers [km]</string>
+	<string name="in">Inches [in]</string>
+	<string name="ft">Feet [ft]</string>
+	<string name="yd">Yards [yd]</string>
+	<string name="mi">Miles [mi]</string>
+
+	<string name="C">Celsius [C]</string>
+	<string name="F">Farenheit [F]</string>
+	<string name="K">kelvin [K]</string>
+
+</resources>

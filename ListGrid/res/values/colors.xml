@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  -->
+    <color name="bg">#FFF6F6F6</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="black">#FF000000</color>
+    <color name="bg_processing">#88000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#FFDDDDDD</color>
+    <color name="font_bar">#40DDDDDD</color>
+    <color name="et_hint">#FFCCCCCC</color>
+    <color name="text_clickable">#FF666666</color>
+    <color name="text_unclickable">#FF999999</color>
+    <color name="unread">#FF505050</color>
+    <color name="read">#FF999999</color>
+    <color name="tablet_round_bg">#FFDBDEE5</color>
+    <color name="list_bg">#FF575757</color>
+    <color name="dialog_line">#FF0000FF</color>
+    <color name="dialog_bg">#A0000000</color>
+    <color name="dialog_item_text">#FF454545</color>
+    <color name="dialog_bt_cancel">#FF484848</color>
+    <color name="dialog_item_cancel">#FF999999</color>
+    <color name="send_bg">#80DDDDDD</color>
+    <color name="popup_bg">#fafafa</color>
+    <color name="popup_under_bg">#11ffffcc</color>
+    <color name="list_item_normal">#fafafa</color>
+    <color name="list_item_pressed">#f2f2f2</color>
+    <color name="side_bar_color">#999999</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="none_color">#00000000</color>
+    <color name="blue_overlay">#660D92DD</color>
+    <color name="tips_bg">#fffafafa</color>
+    <color name="divider">#FFC8C7CC</color>
+    <color name="grid_state_pressed">#BB7dbcd3</color>
+    <color name="grid_state_focused">#777dbcd3</color>
+
+</resources>

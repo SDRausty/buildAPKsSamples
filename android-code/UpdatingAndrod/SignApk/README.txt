@@ -1,0 +1,1 @@
+signapk.jar testkey.x509.pem testkey.pk8 update-cm-3.5.2.zip update-cm-3.5.2-signed.zip

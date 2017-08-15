@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="failed_to_load">Failed to load your note. Check your password and
+		try again.</string>
+	<string name="loaded_note">Loaded your note.</string>
+	<string name="failed_to_save">Failed to save your note.</string>
+	<string name="saved_note">Saved your note.</string>
+	<string name="changed_password">Save your note to apply your new password.</string>
+	<string name="app_name">Secure Note</string>
+	<string name="secure_note_title">Secure Note</string>
+	<string name="secure_note_warning">Unless you close this application, your secure note
+		may be available in the background.</string>
+	<string name="note_text_hint">The text you enter here will be stored securely
+	</string>
+	<string name="load_button">Load</string>
+	<string name="change_password_button">Change Password</string>
+	<string name="save_button">Save</string>
+	<string name="close_button">Close</string>
+	<string name="ok_button">OK</string>
+	<string name="cancel_button">Cancel</string>
+	<string name="get_password_label">Enter your password</string>
+	<string name="password_hint">Password</string>
+	<string name="password_hint_min_length">Password (min %d chars)</string>
+	<string name="password_verification_hint">Password verification</string>
+	<string name="delete_button">Delete</string>
+	<string name="delete_alert">Are you sure you wish to delete your secure note
+		and reset your password?</string>
+	<string name="deleted_note">
+		Deleted your note and reset your password</string>
+	<string name="failed_to_delete">Failed to delete your note and reset your passwod
+	</string>
+	<string name="close_alert">Your secure note has not been saved. Are you sure
+		you wish to close and discard your changes?</string>
+	<string name="device_admin_explanation">In order to store a secure note, your device must
+		first be made secure. Enable device administration to use this
+		application.
+	</string>
+	<string name="device_admin_disable_confirmation">By disabling this option, your secure note will be
+		deleted. Are you sure you wish to continue?
+	</string>
+</resources>

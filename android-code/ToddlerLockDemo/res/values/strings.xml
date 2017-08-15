@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, ToddlerLockDemoActivity!</string>
+    <string name="app_name">ToddlerLockDemo</string>
+    <string name="unlock">Unlock</string>
+    <string name="unlocked">Unlocked</string>
+    <string name="locked">Locked</string>
+    <string name="activate_instructions">Welcome to Toddler Lock Demo! To activate the lock, click on the button bellow. You will be prompted with a dialog to choose how to complete this action. Check on the check box at the bottom, and choose ToddlerLock. Don\'t worry - you can deactivate it later!</string>
+    <string name="activate">Activate</string>
+</resources>

@@ -4,7 +4,7 @@
     android:versionCode="5"
     android:versionName="0.05" >
 
-    <uses-sdk android:minSdkVersion="4" />
+    <uses-sdk android:minSdkVersion="14" />
      <supports-screens 
          android:normalScreens="true"
          android:largeScreens="true"

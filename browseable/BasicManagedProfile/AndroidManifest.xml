@@ -23,7 +23,7 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="21"/>
+        android:targetSdkVersion="27"/>
 
     <application
         android:icon="@drawable/ic_launcher"

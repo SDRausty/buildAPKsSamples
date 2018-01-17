@@ -30,8 +30,8 @@
     <!--
         Requires a minimum platform version of Android-3 (SDK 1.5) to run
     -->
-    <uses-sdk android:minSdkVersion="3"
-      android:targetSdkVersion="11"/>
+    <uses-sdk android:minSdkVersion="14"
+      android:targetSdkVersion="27"/>
 
     <!--
         Sets the application's user-readable label

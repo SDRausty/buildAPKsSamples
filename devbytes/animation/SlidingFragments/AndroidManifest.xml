@@ -20,7 +20,7 @@
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="14"
-              android:targetSdkVersion="17"/>
+              android:targetSdkVersion="27"/>
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity android:name=".SlidingFragments"
                   android:label="@string/app_name">

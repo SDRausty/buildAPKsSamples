@@ -21,8 +21,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-            android:minSdkVersion="4"
-            android:targetSdkVersion="17" />
+            android:minSdkVersion="14"
+            android:targetSdkVersion="27" />
 
     <!-- Tell the system this app requires OpenGL ES 1.0 or higher-->
     <uses-feature android:glEsVersion="0x00010000" />

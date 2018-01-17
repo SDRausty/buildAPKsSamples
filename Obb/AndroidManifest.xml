@@ -18,7 +18,7 @@
     package="com.example.android.obbapp">
 
     <!-- OBBs were introduced in SDK version 9 -->
-    <!-- <uses-sdk android:minSdkVersion="9"/> -->
+    <!-- <uses-sdk android:minSdkVersion="14"/> -->
 
     <application android:label="@string/obb_app">
         <activity android:name="ObbMountActivity">

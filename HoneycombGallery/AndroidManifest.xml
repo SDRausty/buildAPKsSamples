@@ -18,7 +18,7 @@
     package="com.example.android.hcgallery" android:versionCode="2"
     android:versionName="1.5">
 
-    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="14" />
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="27" />
 
     <!-- Declares that the app supports devices w/o touch, such as a mouse-driven device
          or a device that provides only a d-pad for navigation -->

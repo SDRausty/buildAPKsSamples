@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:debuggable="true"
         android:minSdkVersion="14"
-        android:maxSdkVersion="11"
+        android:maxSdkVersion="27"
         android:hardwareAccelerated="true">
         <activity
             android:name=".activities.AccountsActivity"

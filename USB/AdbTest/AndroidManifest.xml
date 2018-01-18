@@ -2,7 +2,7 @@
     package="com.android.adb">
 
     <uses-feature android:name="android.hardware.usb.host" />
-    <uses-sdk android:minSdkVersion="14" />
+  <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="27" />
 
     <application>
         <activity android:name="AdbTestActivity" android:label="ADB Test">

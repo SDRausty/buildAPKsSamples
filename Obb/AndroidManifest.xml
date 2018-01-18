@@ -16,6 +16,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.obbapp">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="27"/>
 
     <!-- OBBs were introduced in SDK version 9 -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->

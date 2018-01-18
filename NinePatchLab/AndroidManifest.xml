@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.ninepatchlab">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="27"/>
     <application android:label="9-patch-lab">
 		<activity android:name="NinePatchLab">
             <intent-filter>

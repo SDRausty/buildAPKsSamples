@@ -9,3 +9,4 @@ git submodule init
 git submodule update sources/samples
 
 ```
+See subdirectories for individual project licenses.

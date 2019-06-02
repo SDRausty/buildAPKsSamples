@@ -1,3 +1,15 @@
 [submodule "ASimpleCache"]
 	path = ASimpleCache
 	url = https://github.com/yangfuhai/ASimpleCache
+[submodule "googlesamples/android-BasicManagedProfile"]
+	path = googlesamples/android-BasicManagedProfile
+	url = https://github.com/googlesamples/android-BasicManagedProfile
+[submodule "googlesamples/android-AppRestrictions"]
+	path = googlesamples/android-AppRestrictions
+	url = https://github.com/googlesamples/android-AppRestrictions
+[submodule "googlesamples/android-AccelerometerPlay"]
+	path = googlesamples/android-AccelerometerPlay
+	url = https://github.com/googlesamples/android-AccelerometerPlay
+[submodule "googlesamples/android-BasicMediaDecoder"]
+	path = googlesamples/android-BasicMediaDecoder
+	url = https://github.com/googlesamples/android-BasicMediaDecoder

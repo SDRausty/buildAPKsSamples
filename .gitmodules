@@ -13,3 +13,6 @@
 [submodule "googlesamples/android-BasicMediaDecoder"]
 	path = googlesamples/android-BasicMediaDecoder
 	url = https://github.com/googlesamples/android-BasicMediaDecoder
+[submodule "learn-android-examples"]
+	path = learn-android-examples
+	url = https://github.com/kevalbhatt/learn-android-examples

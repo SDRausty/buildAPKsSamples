@@ -42,6 +42,7 @@ _AT_ rorist/android-alarm-button 72fd5e1f0e570387597d82bce06dcf3715283443
 _AT_ rorist/Cowsay-android c14df9e362aacb68ba99fec24d3d7dce669e043b
 _AT_ six999/android-vitosha-poker-odds b98f2052f65f81477f3f8589e9836549f45a1c5e
 _AT_ StevenByle/Android-Density-Independence-Demo 82ce51ead3ba4f1ca37256091ff61604c781b319
+(cd StevenByle/Android-Density-Independence-Demo/StevenByle-Android-Density-Independence-Demo-82ce51e ; mv 'Android Density Independence' AndroidDensityIndependence ; cd "$JDR") || printf "%s\\n" "Cannot process directory; Continuing..."
 _AT_ twuster/Rubix 51be3c6c808ff95d0533ad77deac088c2af49f80
 _AT_ VelbazhdSoftwareLLC/android-vitosha-poker-odds 182a79416634154cbaf771926410e02bec849279
 
